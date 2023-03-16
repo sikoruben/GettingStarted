@@ -28,8 +28,9 @@ public class Main {
     // first, let's print something to screen
 
         System.out.println("Hello World!!");
+//heyd
 
-        // btw, all statements in Java must end with a semi-colon; (unless they start a complex block of code
+        /* btw, all statements in Ja4va must end with a semi-colon; (unless they start a complex block of code
         // in which case you omit the semi-colon and use curly braces instead
 
         // OK, now let's create variables of a few different types
@@ -41,7 +42,7 @@ public class Main {
 
         // Java takes care of memory management for both types of variables, but other languages like C or C++
         // would only do memory management for primitive types
-        // (and not for object reference types)
+        // (and not for object reference types) */
 
 
         int i=0;
@@ -79,6 +80,7 @@ public class Main {
 
         // let's create an array of 4 strings, using a slightly different syntax
         String[] arrayOfStrings = {"Athos","Pothos","Aramis","D'Artagnan"};
+        //TO DO add new element to string array !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
         // this is a single line declaration + initialization of the array
         // notice how the array is initialized using curly braces - this is different from say Python
@@ -113,7 +115,14 @@ public class Main {
         // Cool! No let's create our lists of integers and numbers
 
         List<Integer> listOfIntegers = new ArrayList<>();
+        listOfIntegers.add(4);
         List<String> listOfStrings = new ArrayList<>();
+        listOfStrings.add("xD");
+        String masodik = "xD2";
+        listOfStrings.add(masodik);
+        String harmadik = "3";
+        listOfStrings.add(2,harmadik);
+        System.out.println(listOfStrings);
 
         // Notice again how the types of variables are super-important. When we create a list,
         // we have to specify what type of element will go into that list. We do this using the '<Integer>'
